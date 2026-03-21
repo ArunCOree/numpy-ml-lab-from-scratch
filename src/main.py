@@ -1,5 +1,5 @@
 import numpy as np
-from preprocessing import Preprocessor  
+from preprocessing import Preprocessor
 from linear_model import LinearRegression
 from metrics import mean_squared_error, mean_absolute_error, r2_score
 
@@ -26,6 +26,8 @@ def main():
     print(f'Mean Squared Error: {mse:.4f}')
     print(f'Mean Absolute Error: {mae:.4f}')
     print(f'R^2 Score: {r2:.4f}')
+
+main()
 
 if __name__ == "__main__":
     main()
